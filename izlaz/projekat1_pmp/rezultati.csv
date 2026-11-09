@@ -1,0 +1,11 @@
+aktivnost,trajanje,prethodnici,ES,EF,LS,LF,slack,kriticna
+start,0,,0,0,0,0,0,da
+D,4,start,0,4,1,5,1,ne
+A,6,start,0,6,0,6,0,da
+E,8,D,4,12,5,13,1,ne
+F,7,D;A,6,13,6,13,0,da
+G,5,F;E,13,18,13,18,0,da
+B,5,F,13,18,28,33,15,ne
+H,7,G,18,25,18,25,0,da
+C,8,H,25,33,25,33,0,da
+end,0,C;B,33,33,33,33,0,da

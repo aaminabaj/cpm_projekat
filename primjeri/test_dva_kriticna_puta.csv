@@ -1,0 +1,6 @@
+aktivnost,trajanje,prethodnici
+A,3,-
+B,4,A
+C,4,A
+D,2,B;C
+E,1,A

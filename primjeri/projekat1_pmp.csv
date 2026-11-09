@@ -1,0 +1,11 @@
+﻿aktivnost;trajanje;prethodnici
+start;0;-
+D;4;start
+A;6;start
+F;7;D, A
+E;8;D
+G;5;F, E
+B;5;F
+H;7;G
+C;8;H
+end;0;C, B
